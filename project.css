@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+        }
+#particles-js {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(45deg, #000000, #092761);
+     z-index: -1;
+        }
+.launchApp{
+    float: right;
+    margin-right: 3vh;
+    margin-top: 3vh;
+    height: 5vh;
+    width: 13vh;
+    border-radius: 10%;
+    background-color: #05225b;
+    font-family:   sans-serif;
+    padding: 4px 1px;
+    color: hsla(207, 81%, 83%, 0.71);
+    box-shadow: 1px 1px black;
+    border-color: rgb(3, 3, 3);
+
+}
+#LaunchApp:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+        }
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+        }
+p{
+    margin-top: 10vh;
+}
+
+ h4{ 
+    color: rgb(211, 211, 240);
+    font-size: 1em;
+    margin-top: 15vh;
+ }
+ 
+ .wrapper{
+    width:40%;
+    max-width: 300px;
+    position:relative;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#inputBtn{
+    align-items: center;
+    width: 100%;
+    padding:10px;
+    top:0;
+    padding-right: 0px;
+    border-radius: 5px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.waitlistButton{
+    font-size: 0.8em;
+    font-family:   sans-serif;
+    background-color:  #0e337e;
+    color: aliceblue;
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    border: none;
+    height: 100%;
+    right: -14px;
+    top: 0px;
+    
+}
+.waitlistButton:hover{
+    cursor: pointer;
+    background-color:  #113d93;
+}
+.waitlistButton:active{
+    background-color:  #091e49;
+}
